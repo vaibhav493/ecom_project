@@ -1,0 +1,26 @@
+/* .sell_btn{
+    top: 10%;
+} */
+
+.sell_btn{
+    position: fixed;
+    height: 40px;
+    background:transparent;
+    width: 10%;
+    z-index: 100;
+     /* left: 83%; */
+    position: fixed;
+    border-radius: 30px;
+    bottom: 39px;
+   right:-150px;
+    margin: 20px; /* Adjust margin as needed */
+    transform: translate(-100%, 100%);
+    /* border: 3px solid rgb(0, 95, 146); */
+    border-color: rgba(128, 128, 128, 0.389);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    cursor: pointer;
+}
+.sell_btn:hover{
+    background-color: rgb(0, 79, 236);
+    transition: 0.3s ease-in-out;
+}

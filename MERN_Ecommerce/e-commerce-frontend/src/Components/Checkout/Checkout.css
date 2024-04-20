@@ -1,0 +1,112 @@
+/* Checkout.css */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .checkout-container {
+    width: 80%;
+    max-width: 1600px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group:last-child {
+    margin-right: 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #777;
+  }
+  
+  input[type='text'],
+  input[type='email'] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  input[type='text']:focus,
+  input[type='email']:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+  }
+  
+ .placeOrderbtn {
+    display: block;
+    width: 30%;
+    padding: 14px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff4141;  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .placeOrderbtn:hover {
+    background-color: #0056b3;
+  }
+
+  .bck_btn{
+    display: block;
+    width: 10%;
+    padding: 14px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #074bdd;  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  @media (max-width: 600px) {
+    .form-group {
+      flex: 0 0 100%;
+      margin-right: 0;
+    }
+  }
+  
